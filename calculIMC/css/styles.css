@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #e1ebff;
+}
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 2.2rem;
+}
+main {
+    width: 75%;
+    margin: 2.3rem auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+section {
+    width: 65%;
+    padding: 1.3rem;
+
+}
+#formIMC {
+    box-shadow: 3px 3px 6px 3px #3311;
+    padding: 1.3rem;
+
+}
+.form-group {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin-bottom: 10px;
+}
+.form-group input {
+    height: 35px;
+    border-radius: 5px;
+    background-color: #bdc3c7;
+    border: none;
+
+}
+.form-group input:focus {
+    outline: none;
+    border: 1px solid green;
+}
+.btn-block {
+    width: 25%;
+    margin: 20px auto;
+    padding: 1.3rem;
+}
+.btn-block button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn-block button:hover {
+    background-color: #000;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+#block_resultat {
+    margin-top: 20px;
+    box-shadow: 3px 3px 6px 3px #3311;
+    padding: 1.3rem;
+}
+#block_resultat h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+#resultat {
+    display: flex;
+    justify-content: space-around;
+}
+#imc span, #eau span, #proteine span {
+    font-size: 3.5rem;
+}
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+footer a {
+    text-decoration: none;
+    color: #fff;
+
+}
+footer a:hover {
+    text-decoration: underline;
+    transition: 0.3s;
+    color: #1795ff;
+}
+
+
